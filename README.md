@@ -1,4 +1,4 @@
-# Project KOMOREBI (木漏れ日)
+# Project KOMOREBI (木漏れ日)🌸
 
 **Multimodal Acoustic-Linguistic Fusion for Geriatric Clinical Diagnostics**
 
@@ -25,3 +25,26 @@ KOMOREBI/
 ├── transcripts/         # Whisper ASR outputs and Helsinki-NLP translations
 ├── KOMOREBI.ipynb       # Main execution pipeline and fusion model architecture
 └── README.md            # Project documentation
+(Note: Datasets and checkpoint weights are excluded from version control to comply with medical data privacy standards.)
+
+🚀 Environment & Setup
+This pipeline is optimized for GPU acceleration (CUDA) and was developed utilizing Google Colab Pro environments.
+
+Dependencies:
+
+torch (PyTorch)
+
+transformers (Hugging Face)
+
+librosa & soundfile (Audio Processing)
+
+numpy & scikit-learn (Matrix Operations & Metrics)
+
+⚠️ Proof of Concept & Clinical Data Privacy
+Please note that this repository represents a functional Proof-of-Concept (PoC) and architectural prototype.
+
+Due to strict medical data privacy and the ethical constraints of handling sensitive biometric/health data, this public repository does not contain real patient audio or clinical transcripts.
+
+Current State: The system is currently validated using synthetic, simulated data batches to ensure the mathematical fusion, tensor processing, and RAG retrieval pipelines execute correctly without dimension mismatches.
+
+Future Scope: The ultimate goal of this architecture is to be securely deployed within a regulated academic or medical research environment, where it can be fine-tuned and evaluated on real-world MCI patient datasets.
